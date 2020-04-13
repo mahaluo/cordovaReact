@@ -15,13 +15,15 @@
     "ecosystem:cordova"
   ],
   "dependencies": {
-    "cordova-android": "^8.0.0",
+    "cordova-android": "^8.1.0",
+    "cordova-browser": "^6.0.0",
+    "cordova-ios": "^5.1.1",
     "cordova-plugin-badge": "0.8.8",
     "cordova-plugin-device": "2.0.3",
     "cordova-plugin-local-notification": "0.9.0-beta.2",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "react-scripts": "^3.0.1",
+    "react-scripts": "^3.4.1",
     "rimraf": "^2.6.3"
   },
   "devDependencies": {
@@ -52,7 +54,9 @@
       "cordova-plugin-local-notification": {}
     },
     "platforms": [
-      "android"
+      "ios",
+      "android",
+      "browser"
     ]
   }
 }
